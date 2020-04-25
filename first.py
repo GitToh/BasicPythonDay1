@@ -1,8 +1,9 @@
 # แสดงภาษาไทย
+import sys
+print(sys.stdout.encoding)
+
 print("สวัสดีไพทอน")
 print("Hello Python")
-
-
 
 a = 1
 
