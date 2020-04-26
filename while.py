@@ -1,5 +1,5 @@
 # แสดงภาษาไทย
-# print('\033c')
+print('\033c')
 
 # i = 1
 # while i <= 10:
@@ -30,3 +30,12 @@ print('\n')
 
 a, b = 10, 10
 print(f"{(('b>a', 'a>b')[a > b], 'a==b')[a == b]}")
+
+
+x = 0
+a = (1, 0)[x == 0]
+b = 0 if x == 0 else 1
+c = x == 1 and 1 or 0
+print(a)
+print(b)
+print(c)
